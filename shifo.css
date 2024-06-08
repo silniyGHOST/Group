@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(209, 238, 238);
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+li{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    list-style-type: none;
+}
+.more{
+    width: 100px;
+    height: 25px;
+    font-size: 17px;
+    margin-top: 3px;
+    border: none;
+    background-color: blue;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+}
+.more:hover{
+    background: white;
+    color: blue ;
+    cursor: pointer;
+    transition: 0.5s ease  linear;
+}
+header{
+    background-color: rgb(94, 78, 78);
+    height: 50px;
+}
+
+.imgp{
+    width: 500px;
+    height: 480px;
+    border-radius:100%;
+    margin-top: 150px;
+   margin-left: 200px;
+}
+
+.start{
+    display: flex;
+}
+
+.text{
+   
+    width: 700px;
+    height: 700px;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.helo{
+    padding-top: 50px;
+    font-weight: 900;
+    font-size: 58px;
+}
+.ubayy{
+    font-size: 58px;
+    padding-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+}
+.ubay{
+    padding-top: 20px;
+    font-size: 28px;
+}
+
+.lorem{
+    padding-top: 30px;
+    font-size: 17px;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.ubaa{
+  padding: 15px 55px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(199, 39, 39);
+    margin-top: 20px;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    left: 30px;
+    
+
+}
+
+.ubaa:hover{
+    color: red;
+    background-color: white;
+    transition: 0.5s linear;
+    border: 1px solid red;
+}
